@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #e94a34;
 }
 
 body {
@@ -24,7 +24,10 @@ section {
     color: #CB6D43;
     font-weight: 600;
 }
-
+.nav-img{
+    width: 10rem;
+    margin-left: 10rem;
+}
 .inicio-fundo {
     /* aula 3 */
     background-image: url('img/4965007.jpg');
@@ -105,7 +108,9 @@ h2 {
     background-color: #FAF4F4;
 
 }
-
+.img-fluid{
+    width: 360px;
+}
 .fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
@@ -139,4 +144,8 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
+}
+.col-md-4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
