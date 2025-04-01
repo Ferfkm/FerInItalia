@@ -6,15 +6,168 @@
 }
 
 body {
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Montserrat';
 }
+header {
+    background-color: #ffffff;
+}
+.p-5 {
+    padding: 2rem !important;
+}
 
+section {
+    padding-bottom: 1rem;
+}
+
+
+.nav-link {
+    color: #CB6D43;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 2em;
+}
+.nav-img{
+    width: 7rem;
+    margin-left: 1rem;
+}
+
+
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    right: 0;
+    top: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 10px;
+    border: none;
+    width: 8em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
+    height: 4em;
+    /* Convertido para em */
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+
+#tropicalia {
+    position: relative;
+    padding-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
+    background-size: 180px 180px;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+.col-5{
+    width: 81.66666667%;
+}
+h2 {
+    display: none;
+}
+.p-2{
+    display: none;
+}
+#galeria {
+    background-color: #FAF4F4;
+
+}
+.img-fluid{
+    width: 120px;
+}
+
+
+#contato {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 1rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #CB6D43;
+    border: none;
+    font-weight: bold;
+}
+
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: #F1EDEF;
+}
+.col-md-4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3em;
+}
+.pag{
+width: 20rem;
+margin-left: 550px;
+margin-bottom: 200px;
+}
+.pag1{
+    margin-left: 550px;
+}
+.mb-3{
+    width: 100%;
+    height: 260px;
+}
+.pag {
+    width: 20rem;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.pag1 {
+    margin-left: 50px;
+}
+@media screen and (min-width: 1024px) {
 header {
     background-color: #ffffff;
 }
 
-
+.mb-3{
+    width: 100%;
+    height: 100%;
+}
 section {
     padding-bottom: 5rem;
 }
@@ -156,4 +309,5 @@ margin-bottom: 200px;
 }
 .pag1{
     margin-left: 550px;
+}
 }
